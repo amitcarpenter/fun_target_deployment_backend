@@ -192,6 +192,7 @@ setInterval(() => {
 app.use(errorMiddleware);
 
 // Connect to Database and Start Server
+// Connect to Database and Start Server
 connectDB().then(() => {
   server.listen(PORT, () => {
     console.log(`Server is running at port: ${PORT}`);
